@@ -20,7 +20,8 @@ only differences are the configuration preference utility (that is a cut-down
 version) and the engine that is utilied to put the widget on your screen.
 
 This widget is uploaded here for historical archival reasons. I suggest that you 
-use the Yahoo widget version as it is a superior engine.
+use the Yahoo widget version as it is a superior engine for developing widgets. 
+I will provide bugfixes for the Yahoo widget version but not for Xwidgets.
 
 All Jscript widgets need an engine to function, in this case the widget uses 
 the XWidget engine. The engine interprets the Jscript and creates the widget 
