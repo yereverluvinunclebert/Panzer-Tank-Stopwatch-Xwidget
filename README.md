@@ -19,6 +19,8 @@ The graphic interface and operation of the two types of widgets are the same. Th
 only differences are the configuration preference utility (that is a cut-down 
 version) and the engine that is utilied to put the widget on your screen.
 
+![panzer-clock-help](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/63ef603d-8eea-406a-8767-b72371860a7f)
+
 This widget is uploaded here for historical archival reasons. I suggest that you 
 use the Yahoo widget version as it is a superior engine for developing widgets. 
 I will provide bugfixes for the Yahoo widget version but not for Xwidgets.
@@ -65,8 +67,7 @@ Instructions for running XWidgets on Windows
 3. Unzip it
 4. Double-click on the resulting .XUL file and it will install and run
 
-![about](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/bf3ec2c8-b689-434b-be30-f1f441c41c0a)
-
+![about](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/d990202c-97a2-40fb-b271-97afa9bd7763)
 
 LICENCE AGREEMENTS:
 
