@@ -3,7 +3,7 @@
 Panzer Clock and Stopwatch XWidget, written in Jscript for the XWidget Engine. Created for XP, Vista, Win7, 8, 10+ as well as the 
 Apple Mac os x/Linux with Wine.
 
-![panzer-stopwatch650](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/352fb2cb-742d-4e24-afe7-906b05e7fb1e)
+![panzer-photo-1440x900X](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/482256e4-3d75-43dd-8941-c7c5a71f74a4)
 
 This Panzer widget is an attractive dieselpunk Xwidget for your desktop. 
 It is a simple multi-timezone stopwatch and clock. Functional and gorgeous at 
@@ -13,11 +13,15 @@ around the desktop as you require.
 The widget can be resized - Hover the cursor over the widget. Press the CTRL key 
 and use your mousewheel up or down. The widget will resize dynamically.
 
+![dock](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/e6e8cf6c-06fc-4854-b2a7-9ca8537cbb4d)
+
 This widget is a virtual duplicate of the Yahoo widget Panzer Clock widget that 
 you can find here: https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/tree/main
 The graphic interface and operation of the two types of widgets are the same. The 
 only differences are the configuration preference utility (that is a cut-down 
 version) and the engine that is utilied to put the widget on your screen.
+
+![panzer-clock-help](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/63ef603d-8eea-406a-8767-b72371860a7f)
 
 This widget is uploaded here for historical archival reasons. I suggest that you 
 use the Yahoo widget version as it is a superior engine for developing widgets. 
@@ -65,8 +69,7 @@ Instructions for running XWidgets on Windows
 3. Unzip it
 4. Double-click on the resulting .XUL file and it will install and run
 
-![about](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/bf3ec2c8-b689-434b-be30-f1f441c41c0a)
-
+![about](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/d990202c-97a2-40fb-b271-97afa9bd7763)
 
 LICENCE AGREEMENTS:
 
