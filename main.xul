@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xul Version="1.0">
+	<script type="text/javascript" src="script.js"/>
+	<window type="widget" width="838" height="711" onLoad="widgetOnLoad" onEnter="widgetOnEnter" onLeave="widgetOnLeave">
+		<image name="tankHelp" width="750" height="624" left="19" top="12" locked="true" onMouseDown="tankHelpOnMouseDown" src="panzer-clock-help.png" visible="false"/>
+		<layer name="licence" width="412" height="349" left="233" top="150" locked="true" showInDefaultImage="false" visible="false">
+			<button name="Accept" width="59" height="24" text.font.family="Arial" left="281" top="263" onClick="AcceptOnClick" text="Accept" text.font.fill.color="248,247,247,255" locked="true"/>
+			<button name="Decline" width="59" height="24" text="Decline" text.font.family="Arial" left="229" top="263" onClick="DeclineOnClick" text.font.fill.color="245,243,243,255" locked="true"/>
+			<text name="LicenceAgreement" width="113" height="19" text="Licence Agreement" left="30" top="20" font.fill.color="246,246,246,255" wordWrap="true" font.size="9" font.family="Arial"/>
+			<text name="LicenceText" width="309" height="37" text="If you do not agree with the terms set forth above, please click the Decline button below and destroy this widget and its documentation." left="30" top="234" font.fill.color="246,246,246,255" wordWrap="true" font.size="9" font.family="Arial" locked="true"/>
+			<memo name="memo1" width="307" height="191" left="30" top="39" opacity=".81" text="Panzer Dual Clock Widget
+Copyright 2015 Dean Beedell and Harry Whitfield
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+" readOnly="true" showInDefaultImage="false" font.family="Arial" font.fill.color="244,243,243,255" background.color="38,71,47,255"/>
+			<image name="image1" width="365" height="310" src="Frame.png" locked="true" showInDefaultImage="false"/>
+		</layer>
+		<layer name="aboutUsLayer" width="730" height="636" showInDefaultImage="false" locked="true" top="-3" left="4" visible="false">
+			<text name="Version" left="329" top="257" width="152" height="16" onMouseDown="text2OnMouseDown" cursor="-21" showHint="true" hint="Click here to open the widget&apos;s help page" font.family="Courier New" text="1.0"/>
+			<image name="LQlink2" left="307" width="154" height="23" top="420" onMouseDown="text2OnMouseDown" cursor="-21" showHint="true" hint="Click here to open the widget&apos;s help page" locked="true"/>
+			<image name="italoFontanaLink" left="414" width="232" height="23" top="358" onMouseDown="italoFontanaOnMouseDown" cursor="-21" rotate.angle="358" locked="true" showHint="true" hint="Click here to open Italo Fontana&apos;s web page"/>
+			<image name="kjc66link3" left="274" width="232" height="23" top="461" onMouseDown="image2OnMouseDown" cursor="-21" showHint="true" hint="Click here to open KJC66&apos;s DeviantArt page" locked="true"/>
+			<image name="kjc66link2" left="205" width="232" height="23" top="396" onMouseDown="image2OnMouseDown" cursor="-21" showHint="true" hint="Click here to open KJC66&apos;s DeviantArt page" locked="true"/>
+			<image name="kjc66link" left="404" width="232" height="32" top="299" rotate.angle="-4" onMouseDown="image2OnMouseDown" cursor="-21" showHint="true" hint="Click here to open KJC66&apos;s DeviantArt page" locked="true"/>
+			<text name="URL" left="354" top="257" width="152" height="16" text="www.Lightquick.co.uk" locked="true" onMouseDown="text2OnMouseDown" cursor="-21" showHint="true" hint="Click here to open the widget&apos;s help page" font.family="Courier New"/>
+			<image name="aboutUs" width="745" height="622" src="about.png" left="-5" top="4" locked="true" onClick="aboutUsOnClick" animateChange.switchEffect="22" animation.fadeIn.opacity=".15" animateChange.occasion="0"/>
+		</layer>
+		<layer name="showWidgetPreferences" width="550" height="627" showInDefaultImage="false" top="16" left="91" locked="true" visible="false">
+			<layer name="hiddenPrefs" left="23" top="105" width="59" height="266" locked="true" showInDefaultImage="false" visible="false">
+				<edit name="preferencesActionSwitchPrefValue" visible="false" text="0" showInDefaultImage="false" left="4" top="4"/>
+				<edit name="preferencesTickSwitchPrefValue"/>
+				<edit name="preferencesclockFaceSwitchPrefvalue" locked="true" showInDefaultImage="false" visible="false"/>
+				<edit name="preferencesportraitVoffsetPrefvalue" left="8" top="8" locked="true" showInDefaultImage="false" visible="false"/>
+				<edit name="preferencesportraitHoffsetPrefvalue" left="4" top="4" visible="false" showInDefaultImage="false"/>
+				<edit name="preferenceslandscapeVoffsetPrefvalue" visible="false" showInDefaultImage="false"/>
+				<edit name="preferenceslandscapeHoffsetPrefvalue" visible="false" showInDefaultImage="false"/>
+				<edit name="preferenceswidgetLockLandscapeModePrefvalue" showInDefaultImage="false" visible="false"/>
+				<edit name="preferenceswidgetLockPortraitModePrefvalue" visible="false" showInDefaultImage="false"/>
+				<edit name="preferencesLicenceHideValue" visible="false" text="0" showInDefaultImage="false"/>
+			</layer>
+			<button name="hintsButton" width="33" height="32" left="396" top="91" srcUp="bell.png" srcHot="bellpushed.png" srcDown="bellpushed.png" locked="true" onMouseDown="hintsButtonOnMouseDown" showInDefaultImage="false"/>
+			<text name="text4" width="88" height="24" left="353" top="99" font.family="Times New Roman" text="Hints :" font.antiAlias="false" showInDefaultImage="false" locked="true"/>
+			<edit name="preferencesHintPrefValue" width="59" left="432" top="95" locked="true" font.family="Times New Roman" text="enabled" showInDefaultImage="false"/>
+			<button name="button1" width="20" height="20" left="477" top="6" locked="true" onClick="button1OnClick" showInDefaultImage="false"/>
+			<text name="percent50" width="29" height="24" left="346" top="162" font.family="Times New Roman" font.antiAlias="false" showInDefaultImage="false" text="50%"/>
+			<text name="percent100" width="29" height="24" left="464" top="162" font.family="Times New Roman" font.antiAlias="false" showInDefaultImage="false" text="100%"/>
+			<text name="percent0" width="29" height="24" left="227" top="161" font.family="Times New Roman" font.antiAlias="false" showInDefaultImage="false" text="0%"/>
+			<line name="line1" width="241" height="16" left="236" top="159" border.style="1" lineType="2" pen.style="6" showInDefaultImage="false" pen.size="2" pen.cap="1" pen.dash="2"/>
+			<text name="text3" width="249" height="17" left="236" top="213" font.family="Times New Roman" font.antiAlias="false" text="percentage and the whole widget will alter in size." font.fill.color="57,56,56,255" locked="true" showInDefaultImage="false"/>
+			<text name="text2" width="249" height="17" left="234" top="200" font.family="Times New Roman" font.antiAlias="false" text="Changes the total size of the widget. Vary the" font.fill.color="55,54,54,255" locked="true" showInDefaultImage="false"/>
+			<progressBar name="preferencesclockSizevalue" left="237" top="180" width="246" height="9" back.draw.solidColor.enabled="true" fore.draw.solidColor.enabled="true" fore.draw.solidColor.color="0,0,0,255" corner.xRadius="5" corner.yRadius="5" border.color="134,133,133,255" back.draw.solidColor.color="195,178,155,255" back.draw.gradient.stopColor="7,7,7,255" back.draw.gradient.startColor="252,252,252,255" back.draw.gradient.direction="1" back.draw.pattern.enabled="true" back.draw.pattern.style="50" locked="true" autoSize="true" showHint="true" back.draw.pattern.color="183,177,177,255" thumb.enabled="true" thumb.src="slidersmall.png" readOnly="false" showInDefaultImage="false" onChange="preferencessizePrefvalueOnChange"/>
+			<edit name="widgetSize" left="165" top="193" width="44" locked="true" showInDefaultImage="false"/>
+			<text name="text1" width="88" height="24" left="143" top="174" font.family="Times New Roman" text="Widget Size:" font.antiAlias="false" locked="true" showInDefaultImage="false"/>
+			<text name="widgetdefaults" width="88" height="24" left="146" top="555" font.family="Times New Roman" text="Widget defaults" font.antiAlias="false" locked="true" showInDefaultImage="false"/>
+			<edit name="preferenceswidgetTooltipvalue" showInDefaultImage="false" left="233" top="318" width="251" locked="true" font.family="Times New Roman"/>
+			<button name="cancelbutton" width="72" height="23" left="421" top="561" locked="true" onClick="cancelbutton"/>
+			<button name="savebutton" width="72" height="23" left="350" top="560" locked="true" onClick="saveButtonOnClick" onKeyDown="savebuttonOnKeyDown"/>
+			<button name="button3" width="33" height="32" left="233" top="546" srcUp="bell.png" srcHot="bellpushed.png" srcDown="bellpushed.png" onMouseDown="defaultbuttonOnClick" locked="true" showHint="true" hint="Apply default preference values" onClick="defaultbuttonOnClick"/>
+			<button name="scrollButton" width="33" height="32" left="233" top="387" srcUp="bell.png" srcHot="bellpushed.png" srcDown="bellpushed.png" locked="true" showHint="true" hint="The scroll wheel direction decided here." onMouseDown="scrollButtonOnMouseDown"/>
+			<button name="soundbutton" width="33" height="32" left="233" top="89" srcUp="bell.png" srcHot="bellpushed.png" srcDown="bellpushed.png" onMouseDown="soundbuttonOnMouseDown" locked="true"/>
+			<text name="link" width="271" height="24" text="http://lightquick.co.uk/steampunk-widgets.html" left="221" top="54" font.family="Times New Roman" font.size="12" onClick="linkOnClick" cursor="-21" font.style="Bold,Italic" font.antiAlias="false"/>
+			<edit name="preferencesMouseWheelPrefValue" showInDefaultImage="false" left="273" top="392" width="93" locked="true" font.family="Times New Roman"/>
+			<edit name="preferencesimageCmdPrefvalue" showInDefaultImage="false" left="233" top="234" width="249" font.family="Times New Roman"/>
+			<edit name="preferencessoundprefvalue" text="enabled" showInDefaultImage="false" left="270" top="95" font.family="Times New Roman" width="59" locked="true"/>
+			<edit name="preferenceshoffsetprefvalue" showInDefaultImage="false" left="233" top="443" width="251" locked="true" font.family="Times New Roman"/>
+			<edit name="preferencesvoffsetprefvalue" showInDefaultImage="false" left="233" top="498" width="251" font.family="Times New Roman" locked="true"/>
+			<edit name="preferencesLicenceHideValue" text="0" showInDefaultImage="false" left="233" top="173" font.family="Times New Roman" locked="true" visible="false"/>
+			<image name="image2" width="383" height="598" src="uboat-xwidgets-prefs.png" left="128" top="3" locked="true" background.pattern.style="50" background.pattern.color="183,177,177,255" background.solidColor.color="195,178,155,255" showInDefaultImage="false"/>
+		</layer>
+		<layer name="clockface" width="809" height="689" locked="true" visible="false">
+			<image name="tickSwitch" width="53" height="53" left="623" top="63" showHint="true" onMouseDown="tickSwitchOnMouseDown" onMouseUp="tickSwitchOnMouseUp" src="tickButton.png" opacity=".01" locked="true"/>
+			<image name="helpButton" width="51" height="51" left="623" top="519" showHint="true" onMouseUp="helpButtonOnMouseUp" onMouseDown="helpButtonOnMouseDown" src="helpButton.png" opacity=".01" locked="true"/>
+			<image name="pin" width="52" height="52" left="158" top="63" showHint="true" onMouseDown="pinOnMouseDown" src="pin.png" opacity=".01" locked="true"/>
+			<image name="prefs" width="51" height="51" left="158" top="519" onMouseDown="prefsOnMouseDown" onMouseUp="prefsOnMouseUp" showHint="true" src="prefs01.png" locked="true"/>
+			<image name="bigReflection" width="403" height="299" src="bigReflection.png" mouseThrough="true" left="168" top="63" locked="true"/>
+			<image name="startButton" width="168" height="125" left="708" top="139" showHint="true" onMouseDown="startButtonOnMouseDown" src="startButton.png" onMouseUp="startButtonOnMouseUp" locked="true"/>
+			<image name="stopButton" width="95" height="95" left="708" top="398" showHint="true" src="startButton.png" onMouseDown="stopButtonOnMouseDown" onMouseUp="stopButtonOnMouseUp" locked="true"/>
+			<image name="switchFacesButton" width="78" height="106" left="702" top="260" onMouseDown="switchFacesButtonOnMouseDown" showHint="true" hint="Press to switch the dial faces." showInDefaultImage="false"/>
+			<image name="surround" width="775" height="660" src="surround.png" left="-3" top="3" mouseThrough="true" locked="true"/>
+			<image name="windowReflection" width="123" height="111" src="windowReflection.png" mouseThrough="true" left="510" top="215" locked="true"/>
+			<rotator name="secondHand" width="23" height="492" src="Second.png" left="406" effect.shadow.opacity=".4" effect.shadow.softness=".4" effect.shadow.distance="8" effect.shadow.direction="0" wrapMode="1" rotate.angle="349" animation.dynamicEffect="7" animation.duration=".84" animation.occasion="0" effect.bevel.direction="58" percent="97" mouseThrough="true" top="67" locked="true"/>
+			<rotator name="secondShadow" width="46" height="348" src="SecondShadow.png" left="395" rotate.center.y=".75" rotate.center.x=".47" percent="53" rotate.angle="191" mouseThrough="true" top="53" locked="true" showInDefaultImage="false"/>
+			<layer name="minuteHandLayer" width="521" height="549" onDblClick="faceOnDblClick" hint="Double-Click on me to set the widget command" mouseThrough="true" left="146" top="20" locked="true">
+				<rotator name="minuteHand" width="28" height="254" src="Minute.png" effect.shadow.opacity=".4" effect.shadow.softness=".4" effect.shadow.distance="8" effect.shadow.direction="195" coreFormat="${MinutePercent}" core="datetimecore1" rotate.center.x=".51" rotate.center.y=".85" left="257" rotate.angle="240" top="79" locked="true" mouseThrough="true"/>
+				<rotator name="minuteShadow" width="48" height="274" left="257" src="MinuteShadow.png" coreFormat="${MinutePercent}" core="datetimecore1" rotate.angle="198" rotate.center.x=".43" rotate.center.y=".82" top="79" locked="true" mouseThrough="true"/>
+			</layer>
+			<layer name="hourHandLayer" width="508" height="508" mouseThrough="true" left="164" top="59" locked="true">
+				<rotator name="hourHand" width="28" height="329" src="hour.png" left="241" rotate.angle="180" effect.shadow.distance="8" effect.shadow.softness=".4" effect.shadow.direction="360" effect.shadow.opacity=".4" coreFormat="${HourPercent}" core="datetimecore1" top="88" locked="true" mouseThrough="true"/>
+				<rotator name="hourShadow" width="48" height="223" left="239" src="HourShadow.png" coreFormat="${HourPercent}" core="datetimecore1" rotate.angle="195" rotate.center.x=".39" rotate.center.y=".81" top="83" locked="true" mouseThrough="true"/>
+			</layer>
+			<text name="dateText" width="64" height="46" text="text1" font.fill.color="238,217,183,255" core="datetimecore1" coreFormat="${Day0}" font.size="21" top="389" hAlign="0" vAlign="0" font.family="Arial" mouseThrough="true" left="507" locked="true"/>
+			<text name="secondText" width="61" height="38" text="text2" core="datetimecore2" coreFormat="${SecondTens}${SecondDigits}" font.fill.color="238,217,183,255" font.size="21" top="189" hAlign="0" vAlign="0" font.family="Arial" mouseThrough="true" left="306" locked="true"/>
+			<layer name="dualHandLayer" width="489" height="464" left="179" top="95" mouseThrough="true" locked="true">
+				<rotator name="smallMinuteHand" width="93" height="93" src="Small1b.png" hAlign="1" vAlign="1" coreFormat="${MinutePercent}" rotate.angle="66" core="datetimecore2" rotate.center.y=".61" mouseThrough="true" left="123" top="231" locked="true"/>
+				<rotator name="smallHourHand" width="93" height="93" src="smallhour.png" hAlign="1" vAlign="1" rotate.angle="272" core="datetimecore2" coreFormat="${HourPercent}" rotate.center.y=".66" mouseThrough="true" left="272" top="89" locked="true"/>
+			</layer>
+			<layer name="swHandLayer" width="569" height="505" left="19" top="22" mouseThrough="true" locked="true" showInDefaultImage="false" visible="false">
+				<rotator name="swSecondHand" width="93" height="93" src="Small1b.png" left="458" top="237" rotate.center.y=".61" locked="true" showInDefaultImage="false" mouseThrough="true"/>
+				<rotator name="swMinuteHand" width="93" height="93" src="Small1b.png" left="351" top="131" locked="true" rotate.center.y=".61" coreFormat="${MinutePercent}" animation.dynamicEffect="7" showInDefaultImage="false" mouseThrough="true"/>
+				<rotator name="swHourHand" width="93" height="93" src="smallhour.png" left="347" top="342" locked="true" rotate.center.y=".66" rotate.center.x=".52" coreFormat="${HourPercent}" showInDefaultImage="false" mouseThrough="true"/>
+			</layer>
+			<image name="background2" width="755" height="660" src="Background_mk1.png" showInDefaultImage="false" top="4" locked="true" onMouseWheelUp="backgroundOnMouseWheelUp" onMouseWheelDown="backgroundOnMouseWheelDown" left="-3" visible="false" onDblClick="faceOnDblClick"/>
+			<image name="background" width="755" height="660" src="Background_nostrap.png" onDblClick="faceOnDblClick" showHint="true" onMouseWheelUp="backgroundOnMouseWheelUp" onMouseWheelDown="backgroundOnMouseWheelDown" top="4" left="-1" locked="true"/>
+		</layer>
+	</window>
+	<menu>
+		<item name="menuitem2" caption="About Panzer Clock" onClick="menuitem2OnClick"/>
+		<item name="menuitem16" caption="Widget Preferences" onClick="menuitem8OnClick"/>
+		<item name="menuitem17" caption=" "/>
+		<item name="menuitem15" caption="Main Clock Time Zone Settings" core="datetimecore1" onClick="!ShowSetting"/>
+		<item name="menuitem1" caption="Secondary Clock Time Zone Settings" onClick="!ShowSetting" core="datetimecore2"/>
+		<item name="menuitem3" caption=" "/>
+		<item name="menuitem5" caption="Donate a Coffee with Ko-Fi" onClick="menuitem5OnClick"/>
+		<item name="menuitem8" caption="." enabled="false"/>
+		<item name="menuitem19" caption="Panzer Clock Help " onClick="menuitem19OnClick"/>
+		<item name="menuitem20" caption="Online Help and other online options">
+			<item name="menuitem4" caption="Online Help" onClick="menuitem4OnClick"/>
+			<item name="menuitem9" caption="See More Steampunk Widgets" onClick="menuitem9OnClick"/>
+			<item name="menuitem10" caption="Contact Support" onClick="menuitem10OnClick"/>
+			<item name="menuitem12" caption="Download Latest Version" onClick="menuitem12OnClick"/>
+		</item>
+		<item name="menuitem11" caption="Display Licence Agreement" onClick="menuitem11OnClick"/>
+		<item name="menuitem13" caption="   ."/>
+		<item name="menuitem6" caption="Reveal Widget in Windows Explorer" onClick="findWidget"/>
+		<item name="menuitem7" caption="."/>
+		<item name="menuitem14" caption="Reload Widget (F5)" onClick="menuitem14OnClick"/>
+		<item name="menuitem18" caption="Switch off my functions" onClick="switchOffFunctions"/>
+	</menu>
+	<cores>
+		<dateTimeCore name="datetimecore1" timeZoneName=" Greenwich Mean Time: London"/>
+		<dateTimeCore name="datetimecore2" interval="100" onUpdate="updateTime"/>
+		<timerCore name="prefsSaveTimer" interval="10000" onUpdate="SavePrefs"/>
+	</cores>
+	<hotspots/>
+</xul>

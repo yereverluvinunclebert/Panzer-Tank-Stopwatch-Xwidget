@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xwidget version="1.0">
+	<info>
+		<name>U-Boat</name>
+		<namespace/>
+		<displayName>Panzer Clock</displayName>
+		<version>1.0.0</version>
+		<authorName>Dean Beedell</authorName>
+		<description>The Panzer widget based upon a 
+watch face and body design from Italo Fortana. It was 
+based upon a different original Xwidget by Canuckken/kjc66. 
+Adapted to have more functionality, graphical detail, an 
+about us image and licence layers.</description>
+		<permissions/>
+		<CloseBoxInsetX>626</CloseBoxInsetX>
+		<CloseBoxInsetY>62</CloseBoxInsetY>
+		<Width>838</Width>
+		<Height>710</Height>
+		<minPlatformVersion>0.1</minPlatformVersion>
+		<uiType>xul</uiType>
+		<mainSrc>main.xul</mainSrc>
+		<guid/>
+		<updateLog>Recent changes include:
+Sounds, help screen, on-screen controls added.
+New hands with textures and depth, relocated mini-dial, 
+new shadows and reflections to give more depth and 
+brightness to the face, new shadows on the hands, a 
+slightly new take on the rim, minor fixes to numbers and
+background. New preferences window. Double click 
+runs a dedicated windows command. Can be resized 
+with mousewheel up/down.</updateLog>
+		<category>3</category>
+		<authorContact>http://lightquick.co.uk/steampunk-widgets.html?Itemid=264</authorContact>
+		<portAuthorName/>
+		<portAuthorContact/>
+		<tag/>
+		<enabledCloseBox>false</enabledCloseBox>
+		<platform>0</platform>
+	</info>
+</xwidget>
