@@ -13,15 +13,23 @@ around the desktop as you require.
 The widget can be resized - Hover the cursor over the widget. Press the CTRL key 
 and use your mousewheel up or down. The widget will resize dynamically.
 
+This widget is a virtual duplicate of the Yahoo widget Panzer Clock widget that 
+you can find here: https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/tree/main
+The graphic interface and operation of the two types of widgets are the same. The 
+only differences are the configuration preference utility (that is a cut-down 
+version) and the engine that is utilied to put the widget on your screen.
+
+This widget is uploaded here for historical archival reasons. I suggest that you 
+use the Yahoo widget version as it is a superior engine.
+
 All Jscript widgets need an engine to function, in this case the widget uses 
-the XWidget engine. The engine interprets the Jscript and 
-creates the widget according to the XML description and using the images you 
-provide. 
+the XWidget engine. The engine interprets the Jscript and creates the widget 
+according to the XML description and using the images you provide. 
 
 Built using: 
 
-	Adobe Photoshop CS ver 8.0 (2003)  https://www.adobe.com/uk/products/photoshop/free-trial-download.html
-  XWidget engine, runtime and debugger https://www.xwidget.com/
+	Adobe Photoshop CS ver 8.0 (2003)  https://www.adobe.com/uk/products/photoshop/free-trial-download.   
+	XWidget engine, runtime and debugger https://www.xwidget.com/   
 
 Tested on :
 
