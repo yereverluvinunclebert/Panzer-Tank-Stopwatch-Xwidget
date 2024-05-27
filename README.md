@@ -3,6 +3,8 @@
 Panzer Clock and Stopwatch XWidget, written in Jscript for the XWidget Engine. Created for XP, Vista, Win7, 8, 10+ as well as the 
 Apple Mac os x/Linux with Wine.
 
+This widget is now deprecated and is retained for historical reasons only, it still works but time moves ever onward - please use the VB6 version instead that you will find here: https://github.com/yereverluvinunclebert/Panzer-StopWatch-Clock-VB6
+
 ![panzer-photo-1440x900X](https://github.com/yereverluvinunclebert/Panzer-Tank-Stopwatch-Xwidget/assets/2788342/482256e4-3d75-43dd-8941-c7c5a71f74a4)
 
 This Panzer widget is an attractive dieselpunk Xwidget for your desktop. 
